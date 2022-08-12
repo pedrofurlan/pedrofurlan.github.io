@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
+    position: relative;
 }
 .header-menu {
     display: flex;
@@ -31,18 +32,18 @@
         padding:20px;
     }
     .header a{
-        background: #f5f5f5;
+        background: #f5f5f565;
         border-radius:4px;
     }
 }
 .header-menu .customized-menu{
-    background:#000;
+    background:#b8b8b865;
     border-radius: 4px;
-    color:#fff;
+    color:#000;
     padding:10px 10px;
     margin-top: 10px;
 }
 .header-menu .customized-menu:hover{
-    background:#b6f829;
+    background:#fff;
     color:#000;
 }
