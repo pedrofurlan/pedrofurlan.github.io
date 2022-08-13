@@ -33,8 +33,10 @@
 @media (max-width:800px){
     .copyright{
         grid-column: 1;
+        position: initial;
     }
     .footer-container{
+        word-break: break-all;
         grid-template-columns:1fr;
     }
 }

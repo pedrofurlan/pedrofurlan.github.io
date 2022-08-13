@@ -7,7 +7,7 @@
     padding: 120px 20px;
     margin: 0 auto;
     display:grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 1fr;
     gap:100px;
     position: relative;
 }
@@ -58,7 +58,7 @@
     display: block;
     width: 4px;
     height: 20px;
-    background:linear-gradient(#b6f829,#67dd0a);
+    background:linear-gradient(#946d51,#2f211a);
     left: -24px;
 }
 .colege-name{
@@ -128,4 +128,8 @@
     background:url('../img/detalhe.svg')no-repeat center;
     position: absolute;
     bottom:-50px;
+    -ms-transform: rotate(90deg);
+}
+.graduation-container h2{
+    z-index: 2;
 }
