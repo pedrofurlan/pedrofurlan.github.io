@@ -6,14 +6,40 @@
     padding: 120px 20px 60px 20px;
     margin: 0 auto;
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     gap:100px;
     align-items: center;
+    position: relative;
+}
+.footer-contact{
+    position: relative;
+    grid-column: 4;
+}
+/*.footer-contact::before{
+    content: "";
+    display: block;
+    width: 125px;
+    height: 125px;
+    background:url('../img/primarias/bode_perfil-redmensionada.jpg')no-repeat center center;
+    position: relative;
+    border-radius: 50%;
+}*/
+.footer-container img{
+    margin-left: 50px;
+    position:relative;
+    flex-direction: row-reverse;
+    position:relative;
+    border-radius:50%;
+    border-style: dotted;
+    grid-column: 3;
+    min-width:125px;
+    max-height:125px;
 }
 .footer-text{
     font-size: 1.25rem;
     line-height: 1.33;
     color: #ccc;
+    grid-column: 1 / 3;
 }
 .footer-contact li{
     font-weight: bold;
@@ -36,7 +62,21 @@
         position: initial;
     }
     .footer-container{
+        row-gap: 10px;
         word-break: break-all;
-        grid-template-columns:1fr;
+        grid-template-columns:1fr !important;
+    }
+    .footer-container img{
+        align-items:center;
+        column-gap: 10px;
+        margin-top: 50px;
+        grid-column: 1;
+    }
+    .footer-text{
+        margin-top:-10px;
+        grid-column:1;
+    }
+    .footer-contact{
+        grid-column:1;
     }
 }

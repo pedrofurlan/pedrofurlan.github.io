@@ -12,7 +12,7 @@
     position: relative;
 }
 .graduation .subtitle{
-    color:#000;
+    color:#2F211A;
 }
 .graduation-text{
     font-size:1.5rem;
@@ -119,6 +119,10 @@
         position: initial;
         margin-bottom: 10px;
     }
+    .graduation-container .subtitle{
+        position:initial;
+        grid-column: 1;
+    }
 }
 .graduation-container::after{
     content: "";
@@ -128,8 +132,10 @@
     background:url('../img/detalhe.svg')no-repeat center;
     position: absolute;
     bottom:-50px;
-    -ms-transform: rotate(90deg);
 }
 .graduation-container h2{
-    z-index: 2;
+    grid-column: 2;
+}
+.pull-graduation{
+    grid-column: 1/2;
 }
