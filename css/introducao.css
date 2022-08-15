@@ -82,8 +82,8 @@
     }
 }
 .introduction-description h1{
-    color: #fff;
-    opacity: 0.7;
+    color: #e8e8e8;
+    opacity: 0.8;
     text-decoration: background #b8b8b865;
     border-radius: 4px;;
 }
@@ -98,11 +98,14 @@
 }
 .dot{
     background: #000;
-    height: 65px;
+    height: 90px;
     width: 12px;
-    top:295px;
-    left: 870px;
     position: absolute;
     font-size: 5rem;
-    opacity: 0.6 !important;
+    animation: mymove 0.5s infinite alternate;
+    opacity: 0.6;
+}
+@keyframes mymove {
+    from {opacity:0;}
+    to {opacity: 1;}
 }
