@@ -1,5 +1,14 @@
+@font-face {
+    font-family: Fira;
+    src: url(../fonts/Fira_Sans/FiraSans-Regular.ttf)
+}
+@font-face {
+    font-family: Josef;
+    src: url(../fonts/Josefin_Slab/static/JosefinSlab-Bold.ttf)
+  }
+  
 body{
-    font-family: 'Fira Sans', Arial, sans-serif;
+    font-family: Fira, Arial, sans-serif;
     margin:0px;
     color:#141414;
 }
