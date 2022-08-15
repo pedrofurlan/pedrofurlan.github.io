@@ -12,7 +12,7 @@
 }
 @media (max-width: 780px){
     .background-header-main{
-        background-position: center top;
+        background-position: left center;
         min-height: 100%;
         background-size:cover;
     }
@@ -30,7 +30,7 @@
 }
 .introduction h1{
     margin-top: 20px;
-    font-size: 4.5em;
+    font-size: 4.5rem;
     line-height:1.2;
     margin-bottom:80px;
     position:relative;
@@ -55,8 +55,16 @@
     .introduction h1{
         font-size: 3rem;
     }
+    .dot{
+        height: 3.5rem !important;
+        width: 8px !important;
+    }
 }
 @media(max-width:800px){
+    .dot{
+        height: 2.25rem !important;
+        width: 6px !important;
+    }
     .introduction {
         grid-template-columns: 2fr;
         gap:40px;
@@ -98,10 +106,9 @@
 }
 .dot{
     background: #000;
-    height: 90px;
+    height: 5.5rem;
     width: 12px;
     position: absolute;
-    font-size: 5rem;
     animation: mymove 0.5s infinite alternate;
     opacity: 0.6;
 }
