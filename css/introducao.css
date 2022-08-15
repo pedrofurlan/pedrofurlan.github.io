@@ -5,7 +5,7 @@
     max-width: 100%;
 }*/
 .background-header-main{
-    background:url('../img/primarias/new-background.jpg') no-repeat center center;
+    background:url('../img/primarias/new-background-resize.jpg') no-repeat center center;
     max-width:100%;
     background-size: 100%;
     margin: auto;
@@ -29,10 +29,10 @@
     text-align: center;
 }
 .introduction h1{
-    /*font-family: Josef;*/
+    font-family: Josef;
     margin-top: 20px;
-    font-size: 4.5rem;
-    line-height:1.2;
+    font-size: 5rem;
+    line-height:1.1;
     margin-bottom:80px;
     position:relative;
 }

@@ -37,16 +37,22 @@
     }
 }
 .header-menu .customized-menu{
-    background:#b8b8b890;
+    background:#b8b8b840;
     border-radius: 4px;
     color:#000;
     padding:10px 10px;
     margin-top: 10px;
 }
 .header-menu .customized-menu:hover{
-    background:#000;
-    opacity: 1;
+    background:#00000085;
     color:#fff;
+}
+.header a:hover{
+    background:#00000060;
+    padding:10px 10px;
+    margin-top: 10px;
+    color:#fff;
+    border-radius:4px;
 }
 @media (max-width:800px){
     .header a{
@@ -78,10 +84,10 @@
     }
     .header-menu .customized-menu{
         background:#fff;
-        margin: auto;
+        margin: auto !important;
         border-radius: 4px;
         color:#000;
-        padding:20px 10px;
+        padding:20px 10px !important;
         justify-content: center;
     }
     .header-menu .customized-menu:hover{

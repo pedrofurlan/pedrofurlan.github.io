@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: Josef;
-    src: url(../fonts/Josefin_Slab/static/JosefinSlab-Bold.ttf)
+    src: url(../fonts/Josefin_Slab/static/JosefinSlab-Regular.ttf)
   }
   
 body{
@@ -49,4 +49,28 @@ body::-webkit-scrollbar-thumb {
 }
 html, body {
     scroll-behavior: smooth;
+}
+.to-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background:#2f211a75;
+    padding: 10px;
+    border-radius:50%;
+    text-decoration: none;
+}
+.to-top::after {
+    content: url('../img/arrow-lb.svg');
+    transition: margin-top 250ms;
+    opacity: 1 !important;
+}
+.to-top:hover{
+    
+    background: rgba(148, 109, 81,0.55);
+        content: url('../img/arrow-db.svg');
 }
