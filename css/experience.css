@@ -9,6 +9,11 @@
 .experience .subtitle{
     color: #946D5180;
 }
+.experience .subtitle{
+    background: url('../img/brito-left.svg')no-repeat bottom right;
+    min-width: 100px;
+    margin-bottom: 50px;
+}
 .experience-text{
     font-size:1.5rem;
     line-height:1.33;
@@ -82,8 +87,8 @@
     .experience .subtitle{
         color:#444;
         visibility:visible !important;
-    }
-    
+        background:none;
+    }    
 }
 @media (max-width: 800px) {
     .subtitle{
