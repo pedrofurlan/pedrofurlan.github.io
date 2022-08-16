@@ -109,7 +109,7 @@
         padding: 60px 20px;
         gap:40px;
     }
-    .graduation .subtitle{
+    .graduation .subtitle,.subtitle800{
         color: #fff;
     }
     .graduation-text{
@@ -119,9 +119,17 @@
         position: initial;
         margin-bottom: 10px;
     }
-    .graduation-container .subtitle{
+    .graduation-container .subtitle,.subtitle800{
+        font-size: 3rem;
+    text-transform: capitalize;
         position:initial;
         grid-column: 1;
+    }
+    .subtitle800{
+        display:block !important;
+    }
+    .subtitle{
+        visibility: hidden;
     }
 }
 .graduation-container::after{
@@ -133,9 +141,6 @@
     position: absolute;
     bottom:-50px;
 }
-.graduation-container h2{
-    grid-column: 2;
-}
-.pull-graduation{
-    grid-column: 1/2;
+.subtitle800{
+    display: none;
 }

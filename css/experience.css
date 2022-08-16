@@ -81,6 +81,7 @@
     }
     .experience .subtitle{
         color:#444;
+        visibility:visible !important;
     }
     
 }
